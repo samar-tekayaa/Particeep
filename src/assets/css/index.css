@@ -1,0 +1,22 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title-cell {
+  vertical-align: top;
+  width: 30%;
+}
+
+.title-cell .movie-overview {
+  white-space: normal;
+  color: #999;
+}
+
+.title-cell > h4 {
+  font-weight: bold;
+}
